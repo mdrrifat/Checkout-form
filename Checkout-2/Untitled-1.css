@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #ffffff;
+  color: #000000;
+  margin: 5% 0;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  background: #fffbfb;
+  border-radius: 10px;
+  padding: 25px;
+}
+form {
+  flex: 3;
+}
+.Yorder {
+  flex: 1.1;
+}
+.title {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0, #5195a8),
+    color-stop(100, #70eaff)
+  );
+  background: -moz-linear-gradient(top left, #5195a8 0%, #70eaff 100%);
+  background: -ms-linear-gradient(top left, #5195a8 0%, #70eaff 100%);
+  background: -o-linear-gradient(top left, #5195a8 0%, #70eaff 100%);
+  background: linear-gradient(to bottom right, #5195a8 0%, #70eaff 100%);
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  color: #f6f6f6;
+}
+h2 {
+  margin: 0;
+  padding-left: 15px;
+}
+.required {
+  color: red;
+}
+label,
+table {
+  display: block;
+  margin: 15px;
+}
+label > span {
+  float: left;
+  width: 30%;
+  margin-top: 12px;
+  padding-right: 10px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 50%;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #dadada;
+  color: #000000;
+}
+input[type="number"],
+select {
+  width: 50%;
+  height: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #dadada;
+  color: #000000;
+}
+select {
+  width: 72%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Yorder {
+  margin-top: 1px;
+  height: 600px;
+  padding: 3px;
+  padding-right: 100px;
+}
+table {
+  margin: 0;
+  padding: 0;
+}
+th {
+  border-bottom: 1px solid #dadada;
+  padding: 15px;
+}
+tr > td:nth-child(1) {
+  text-align: left;
+  color: #2d2d2a;
+}
+tr > td:nth-child(2) {
+  text-align: right;
+  color: #52adaa;
+}
+td {
+  border-bottom: 1px solid #dadada;
+  padding: 20px 20px 20px 20px;
+}
+
+.Yorder > div {
+  padding: 12px 0;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #1d1d1d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  background: #6a6a6a;
+}

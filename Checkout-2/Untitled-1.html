@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="D:\Programming\Project\Form design\form\Untitled-1.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Order placed</h2>
+      </div>
+      <div class="d-flex">
+        <form action="" method="">
+          <label>
+            <span class="fname"
+              >Place name <span class="required">*</span></span
+            >
+            <input type="text" name="fname" placeholder="Dhaka" />
+          </label>
+          <label>
+            <span class="order_id"
+              >Order id <span class="required">*</span></span
+            >
+            <input type="text" name="order_id" placeholder="2156" />
+          </label>
+          <label>
+            <span>Customer name</span>
+            <input type="text" name="name" placeholder="John" />
+          </label>
+          <label>
+            <span>Phone <span class="required">*</span></span>
+            <input type="tel" name="Phone" placeholder="019********" />
+          </label>
+          <label>
+            <span>Email Address <span class="required">*</span></span>
+            <input type="email" name="email" placeholder="john@gmail.com" />
+          </label>
+          <label>
+            <span>Check in <span class="required">*</span></span>
+            <input type="date" name="date" />
+          </label>
+          <label>
+            <span>Check out <span class="required">*</span></span>
+            <input type="date" name="date" />
+          </label>
+        </form>
+        <div class="Yorder">
+          <table>
+            <tr>
+              <th colspan="2"><h2>Your order</h2></th>
+            </tr>
+            <tr>
+              <td>Product x 2</td>
+              <td>$88.00</td>
+            </tr>
+            <tr>
+              <td>Subtotal</td>
+              <td>$88.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>$20</td>
+            </tr>
+          </table>
+          <br />
+
+          <div>
+            <input type="radio" name="dbt" value="dbt" checked />Cash on
+            delivery
+          </div>
+          <img
+            src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg"
+            alt=""
+            width="80"
+          />
+          <div>
+            <input type="radio" name="dbt" value="cd" />Paypal &nbsp<input
+              type="number"
+              name="number"
+              placeholder="2156123654"
+            />
+          </div>
+          <div>
+            <input type="radio" name="dbt" value="cd" />Bank &nbsp<input
+              type="number"
+              name="number"
+              placeholder="2156125478"
+            />
+          </div>
+          <button type="button">Place Order</button>
+        </div>
+        <!-- Yorder -->
+      </div>
+    </div>
+  </body>
+</html>
